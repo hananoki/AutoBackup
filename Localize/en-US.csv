@@ -1,0 +1,14 @@
+Backup package
+Package Name
+Stopped working
+Disable the backup package from Package Manager
+Backup function is working
+Backup function has stopped working
+Backup interval (minutes)
+Save __Backupscenes at start of play mode
+Call Save Assets when backing up
+Delete old files when the specified number of files is exceeded
+Back up your scene now
+Clean up backup
+Used for the display name of the package and the name of the output folder
+No package name entered

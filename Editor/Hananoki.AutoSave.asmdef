@@ -1,0 +1,23 @@
+{
+  "name": "Hananoki.AutoSave",
+  "references": [
+    "Hananoki.SharedModule.Runtime",
+    "Hananoki.SharedModule.RuntimeEditor",
+    "Hananoki.UnitySymbol.Editor",
+    "Hananoki.ReflectionUtils.Editor",
+    "Hananoki.EditorIcon.Editor",
+    "Hananoki.UnityReflection.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "references.backup": []
+}
