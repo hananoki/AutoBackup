@@ -1,4 +1,8 @@
-﻿using HananokiEditor.Extensions;
+﻿#if UNITY_2019_1_OR_NEWER
+
+using HananokiEditor.Extensions;
+using HananokiRuntime;
+using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -15,6 +19,10 @@ namespace HananokiEditor.AutoBackup {
 		internal static string バックアップ先のアセットパス = $"Packages/{backupDomain}";
 
 		internal static double s_elapsedTime;
+
+		internal static Confirm s_confirm;
+
+		internal static string  s_rollbackGUID;
 
 
 		static Core() {
@@ -58,6 +66,17 @@ namespace HananokiEditor.AutoBackup {
 			if( !E.i.有効 ) return;
 
 			s_elapsedTime = EditorApplication.timeSinceStartup;
+
+			Helper.New( ref s_confirm );
+			s_confirm.RemoveUI();
+
+			var mm = Regex.Matches( scene.path, @".*\s\[(.+)\]\.unity" );
+			if( 0 < mm.Count ) {
+				s_rollbackGUID = mm[ 0 ].Groups[ 1 ].Value;
+
+				
+				s_confirm.Attach();
+			}
 		}
 
 
@@ -118,3 +137,4 @@ namespace HananokiEditor.AutoBackup {
 	}
 }
 
+#endif

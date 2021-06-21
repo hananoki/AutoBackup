@@ -1,4 +1,6 @@
-﻿using HananokiEditor.Extensions;
+﻿#if UNITY_2019_1_OR_NEWER
+
+using HananokiEditor.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -78,7 +80,8 @@ PackageManifestImporter:
 			for( int i = 0; i < SceneManager.sceneCount; i++ ) {
 				var p = SceneManager.GetSceneAt( i );
 				if( !p.isDirty ) continue;
-				EditorSceneManager.SaveScene( p, $"Packages/{Core.backupDomain}/{DateTime.Now.ToString( "yyyyMMdd_HHmm_ss" )}_{p.name}.unity", true );
+				var guid = p.path.ToGUID();
+				EditorSceneManager.SaveScene( p, $"Packages/{Core.backupDomain}/{DateTime.Now.ToString( "yyyyMMdd_HHmm_ss" )}_{p.name} [{guid}].unity", true );
 			}
 
 			if( P.i.バックアップ時にSaveAssetsを呼ぶ ) {
@@ -129,3 +132,5 @@ PackageManifestImporter:
 
 	}
 }
+
+#endif

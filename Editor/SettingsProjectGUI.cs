@@ -1,4 +1,6 @@
-﻿using HananokiEditor.Extensions;
+﻿#if UNITY_2019_1_OR_NEWER
+
+using HananokiEditor.Extensions;
 using HananokiEditor.SharedModule;
 using HananokiRuntime.Extensions;
 using System;
@@ -141,3 +143,5 @@ namespace HananokiEditor.AutoBackup {
 		}
 	}
 }
+
+#endif

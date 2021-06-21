@@ -1,4 +1,6 @@
-﻿using HananokiEditor.Extensions;
+﻿#if UNITY_2019_1_OR_NEWER
+
+using HananokiEditor.Extensions;
 using HananokiRuntime.Extensions;
 using UnityEditor;
 using UnityEditor.SceneManagement;
@@ -15,7 +17,7 @@ using UnityEditor.Localization.Editor;
 namespace HananokiEditor.AutoBackup {
 	public class Menu {
 		const string m = "Tools/AutoBackup/";
-		const string m1 = "Open Latest∕Backup";
+		const string m1 = "Open Latest Backup";
 		const string m2 = "Restore__Backupscenes";
 
 
@@ -62,3 +64,4 @@ namespace HananokiEditor.AutoBackup {
 
 
 
+#endif
