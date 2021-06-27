@@ -8,7 +8,7 @@ namespace HananokiEditor.AutoBackup {
     public const string name = "AutoBackup";
     public const string nameNicify = "Auto Backup";
     public const string editorPrefName = "Hananoki.AutoBackup";
-    public const string version = "0.2.0";
+    public const string version = "0.3.0";
     public static string projectSettingsPath => $"{SharedModule.SettingsEditor.projectSettingDirectory}/AutoBackup.json";
   }
 }

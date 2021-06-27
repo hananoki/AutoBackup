@@ -1,6 +1,8 @@
-﻿using HananokiRuntime.Extensions;
+﻿using HananokiEditor.Extensions;
+using HananokiRuntime.Extensions;
 using System;
 using System.IO;
+using UnityEditor;
 using UnityEngine;
 using P = HananokiEditor.AutoBackup.SettingsProject;
 
@@ -50,7 +52,16 @@ namespace HananokiEditor.AutoBackup {
 		public static void Load() {
 			if( i != null ) return;
 
-			i = JsonUtility.FromJson<P>( fs.ReadAllText( Package.projectSettingsPath ) );
+			if( Package.projectSettingsPath.IsExistsFile() ) {
+				i = JsonUtility.FromJson<P>( fs.ReadAllText( Package.projectSettingsPath ) );
+				fs.rm( Package.projectSettingsPath );
+				Save();
+				Debug.Log( "Updated to EditorUserSettings" );
+			}
+			else {
+				i = JsonUtility.FromJson<P>( EditorUserSettings.GetConfigValue( Package.editorPrefName ) );
+			}
+
 			if( i == null ) {
 				i = new P();
 				Save();
@@ -59,7 +70,7 @@ namespace HananokiEditor.AutoBackup {
 
 
 		public static void Save() {
-			File.WriteAllText( Package.projectSettingsPath, JsonUtility.ToJson( i, true ) );
+			EditorUserSettings.SetConfigValue( Package.editorPrefName, JsonUtility.ToJson( i, false ) );
 		}
 
 		#endregion

@@ -6,6 +6,8 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+using SS = HananokiEditor.SharedModule.S;
+
 
 namespace HananokiEditor.AutoBackup {
 	public class Confirm {
@@ -90,17 +92,17 @@ namespace HananokiEditor.AutoBackup {
 
 			ScopeHorizontal.Begin();
 
-			GUILayout.Label( EditorHelper.TempContent( "このバックアップで元ファイルを上書きしますか？", EditorIcon.info ), GUILayout.Height( EditorGUIUtility.singleLineHeight ) );
+			GUILayout.Label( EditorHelper.TempContent( S._Doyouwanttooverwritetheoriginalfilewiththisbackup_, EditorIcon.info ), GUILayout.Height( EditorGUIUtility.singleLineHeight ) );
 			GUILayout.FlexibleSpace();
-			if( GUILayout.Button( "はい", GUILayout.Height( EditorGUIUtility.singleLineHeight ) ) ) {
+			if( GUILayout.Button( SS._Yes, GUILayout.Height( EditorGUIUtility.singleLineHeight ) ) ) {
 				EditorApplication.delayCall += () => {
 					var p = SceneManager.GetSceneAt( 0 );
 					EditorSceneManager.SaveScene( p, $"{Core.s_rollbackGUID.ToAssetPath()}", true );
-					EditorSceneManager.OpenScene($"{Core.s_rollbackGUID.ToAssetPath()}" );
+					EditorSceneManager.OpenScene( $"{Core.s_rollbackGUID.ToAssetPath()}" );
 					RemoveUI();
 				};
 			}
-			if( GUILayout.Button( "いいえ", GUILayout.Height( EditorGUIUtility.singleLineHeight ) ) ) {
+			if( GUILayout.Button( SS._No, GUILayout.Height( EditorGUIUtility.singleLineHeight ) ) ) {
 				EditorApplication.delayCall += () => RemoveUI();
 			}
 			ScopeHorizontal.End();
