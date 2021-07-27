@@ -1,15 +1,16 @@
-paket cadangan
+Paket cadangan
 Nama paket
 Berhenti bekerja
-Menonaktifkan paket cadangan dari Package Manager
-Fungsi Backup adalah kerja
-fungsi backup telah berhenti kerja
+Nonaktifkan paket cadangan dari manajer paket
+Fungsi cadangan berfungsi
+Fungsi cadangan telah berhenti bekerja
 Interval cadangan (menit)
-Kirimkan __Backupscenes di awal mode putar
-Panggilan Simpan Aset ketika back up
-Menghapus file lama ketika jumlah tertentu file terlampaui
-Back up adegan Anda sekarang
-backup up bersih
-Digunakan untuk nama tampilan dari paket dan nama folder output
+Simpan __backupScenes pada awal mode putar
+Panggil Aset Simpan Saat Mencadangkan
+Hapus file lama ketika jumlah file yang ditentukan terlampaui
+Cadangkan adegan Anda sekarang
+Bersihkan cadangan
+Digunakan untuk nama tampilan paket dan nama folder output
 Tidak ada nama paket yang dimasukkan
 Apakah Anda ingin menimpa file asli dengan cadangan ini?
+Itu akan berhenti bekerja karena paket cadangan menghilang selama operasi

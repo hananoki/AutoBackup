@@ -8,12 +8,11 @@ using UnityEditor;
 using UnityEngine;
 using P = HananokiEditor.AutoBackup.SettingsProject;
 using SS = HananokiEditor.SharedModule.S;
-using W = HananokiEditor.AutoBackup.Utils;
 
 
 namespace HananokiEditor.AutoBackup {
 
-	public class SettingsProjectGUI {
+	public class SettingsGUI {
 
 		[HananokiSettingsRegister]
 		public static SettingsItem RegisterSettings() {
@@ -31,10 +30,7 @@ namespace HananokiEditor.AutoBackup {
 		public static void DrawGUI() {
 			P.Load();
 
-			// AssetDatabase.IsValidFolder( W.バックアップ先のアセットパス );
-			// 外部で消えた場合AssetDatabase.IsValidFolderはデータベースの状態で返すので状況に合わない
 			bool enablePackage = P.i.有効 ? P.i.m_backupPackageName.IsExistsDirectory() : false;
-
 
 			ScopeChange.Begin();
 
@@ -47,10 +43,10 @@ namespace HananokiEditor.AutoBackup {
 				GUILayout.Label( EditorHelper.TempContent( S._Backupfunctionhasstoppedworking, EditorIcon.lightmeter_lightrim ), GUILayout.Height( EditorGUIUtility.singleLineHeight ) );
 			}
 			ScopeHorizontal.End();
+			GUILayout.Space( 4 );
 
 
 			/////////////////////////////////////////
-			GUILayout.Space( 4 );
 			HEditorGUILayout.HeaderTitle( S._Backuppackage );
 
 			ScopeHorizontal.Begin();
@@ -89,7 +85,7 @@ namespace HananokiEditor.AutoBackup {
 						EditorUtility.DisplayDialog( SS._Info, $"No package name entered", SS._OK );
 					}
 					else {
-						W.バックアップパッケージをインストールする();
+						Utils.バックアップパッケージをインストールする();
 						EditorApplication.update -= Utils.Install完了時の処理;
 						EditorApplication.update += Utils.Install完了時の処理;
 					}
@@ -98,10 +94,10 @@ namespace HananokiEditor.AutoBackup {
 
 			ScopeHorizontal.End();
 
+			GUILayout.Space( 4 );
 
 
 			/////////////////////////////////////////
-			GUILayout.Space( 4 );
 			HEditorGUILayout.HeaderTitle( SS._Option );
 
 			EditorGUILayout.LabelField( S._Backupinterval_minutes_ );
@@ -124,20 +120,17 @@ namespace HananokiEditor.AutoBackup {
 				P.Save();
 			}
 
+			GUILayout.Space( 4 );
 
 
 			/////////////////////////////////////////
-			GUILayout.Space( 4 );
 			HEditorGUILayout.HeaderTitle( SS._Command );
 
-			//ScopeHorizontal.Begin();
-			//GUILayout.FlexibleSpace();
-
 			if( GUILayout.Button( S._Backupyourscenenow ) ) {
-				W.シーンをバックアップ( true );
+				Utils.シーンをバックアップ( true );
 			}
 			if( GUILayout.Button( S._Cleanupbackup ) ) {
-				W.バックアップをクリーン();
+				Utils.バックアップをクリーン();
 			}
 
 		}

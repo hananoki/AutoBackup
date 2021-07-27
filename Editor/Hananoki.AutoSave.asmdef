@@ -1,12 +1,12 @@
 {
   "name": "Hananoki.AutoSave",
   "references": [
+    "Hananoki.EditorIcon.Editor",
+    "Hananoki.ReflectionUtils.Editor",
     "Hananoki.SharedModule.Runtime",
     "Hananoki.SharedModule.RuntimeEditor",
-    "Hananoki.UnitySymbol.Editor",
-    "Hananoki.ReflectionUtils.Editor",
-    "Hananoki.EditorIcon.Editor",
-    "Hananoki.UnityReflection.Editor"
+    "Hananoki.UnityReflection.Editor",
+    "Hananoki.UnitySymbol.Editor"
   ],
   "includePlatforms": [
     "Editor"

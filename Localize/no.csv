@@ -1,15 +1,16 @@
-backup-pakken
-Package Name
+Backup pakke
+Pakke navn
 Sluttet å jobbe
-Deaktiver backup pakken fra Package Manager
-Backup-funksjon er arbeids
-Backup-funksjonen har sluttet å virke
-Backup intervall (minutter)
-Lagre __Backupscenes ved starten av avspillingsmodus
-Samtale Lagre Eiendeler ved sikkerhetskopiering
-Slette gamle filer når det angitte antall filer er overskredet
-Sikkerhetskopier scenen nå
-Rydd opp backup
-Brukes for visning navnet på pakken og navnet på output-mappen
-Ingen pakkenavn oppgitt
+Deaktiver sikkerhetskopien fra pakkehåndteringen
+Backup-funksjonen fungerer
+Backup-funksjonen har sluttet å fungere
+Sikkerhetskopieringsintervall (minutter)
+Lagre __backupscenes ved start av spillmodus
+Ring Lagre eiendeler når du sikkerhetskopierer
+Slett gamle filer når det angitte antallet filer overskrides
+Sikkerhetskopier din scene nå
+Rydde opp sikkerhetskopiering
+Brukes til visningsnavnet på pakken og navnet på utgangsmappen
+Ingen pakkenavn angitt
 Ønsker du å overskrive den opprinnelige filen med denne sikkerhetskopien?
+Det vil slutte å fungere fordi backup-pakken forsvant under drift

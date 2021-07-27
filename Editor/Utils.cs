@@ -14,12 +14,6 @@ namespace HananokiEditor.AutoBackup {
 
 	public class Utils {
 
-		[HananokiEditorMDViewerRegister]
-		public static string MDViewerRegister() {
-			return "e35347eead484d94ca1390bdf91c22db";
-		}
-
-
 		/////////////////////////////////////////
 		internal static void Install完了時の処理() {
 			if( !P.i.m_backupPackageName.IsExistsDirectory() ) return;
@@ -88,7 +82,7 @@ PackageManifestImporter:
 				AssetDatabase.SaveAssets();
 			}
 
-			Utils.指定ファイル数を超えたら古いファイルを消す();
+			指定ファイル数を超えたら古いファイルを消す();
 		}
 
 

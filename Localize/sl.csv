@@ -1,15 +1,16 @@
-backup paket
-paket Ime
-prenehala delovati
-Onemogoči varnostno paket iz Package Manager
-Backup funkcija je delovna
-Backup funkcija je prenehala delovati
-Prislon intervala (min)
-Shrani __Backupscenes na začetku načinu predvajanja
-Call Shrani Sredstva ko varnostno kopirati
-Izbrišite stare datoteke, ko se preseže določeno število datotek
-Varnostno kopiranje sceno zdaj
-Clean up backup
-Uporablja se za prikazno ime paketa in ime mape izhodne
-No name paket vpisana
+Paket backup.
+Ime paketa
+Prenehal delovati
+Onemogočite paket za varnostno kopiranje vodje paketa
+Funkcija varnostnega kopiranja deluje
+Funkcija varnostnega kopiranja je prenehala delovati
+Varnostni interval (minute)
+Shrani __BackupScenes na začetku igralnega načina
+Pokličite prihranite sredstva, ko varnostno kopijo
+Izbrišite stare datoteke, ko je preseženo določeno število datotek
+Nazaj na svojo sceno
+Očistite varnostno kopijo
+Uporablja se za prikazno ime paketa in ime izhodne mape
+Vneseno ni ime paketa
 Želite prepisati izvirno datoteko s to varnostno kopijo?
+Prenehal delovati, ker je paket backup izginil med delovanjem

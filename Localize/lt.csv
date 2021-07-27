@@ -1,15 +1,16 @@
 Atsarginė paketas
-Pakuotės Vardas
+Pakuotės pavadinimas
 Nustojo veikti
-Išjungti atsarginę paketą iš Package Manager
-Atsarginė funkcija yra darbo
+Išjunkite "Backup" paketą iš paketo tvarkyklės
+Atsarginė funkcija veikia
 Atsarginė funkcija nustojo veikti
-Atsarginę intervalas (min)
-Išsaugoti __Backupscenes pradžioje atkūrimo režimu
-Skambučių Išsaugoti turto, kai kuriais yra paremtas
-Ištrinti senus failus, kai nurodyta failų skaičius viršija
-Atsarginę kopiją savo sceną dabar
-Išvalyti atsarginės
-Naudojama rodomą vardą pakuotės ir išvesties aplanką pavadinimu
-Nėra paketo pavadinimas įvesta
+Atsarginė intervalas (minutės)
+Išsaugokite __backupscenes pradžioje atkūrimo režimo pradžioje
+Skambinkite išsaugant turtą atsarginant
+Ištrinkite senus failus, kai viršijamas nustatytas failų skaičius
+Atsukite savo sceną dabar
+Išvalykite atsarginę kopiją
+Naudojamas pakuotės rodymui ir išvesties aplanko pavadinimui
+Nėra įvesto paketo
 Norite perrašyti originalų failą su šiuo atsargine kopija?
+Jis nustos veikti, nes veikimo metu atsarginis paketas išnyko

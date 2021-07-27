@@ -1,5 +1,15 @@
 # Auto Backup
 
+## [0.4.0] - 2021-07-27
+
+### Changed
+- Changed the method name to make it easier to profile
+- Folder monitoring is now performed at regular intervals
+- Rename source file
+
+### Fixed
+- Fixed localization leaks
+
 ## [0.3.0] - 2021-06-27
 
 ### Changed

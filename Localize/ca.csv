@@ -1,15 +1,16 @@
-paquet de còpia de seguretat
-Nom de l'paquet
+Paquet de còpia de seguretat
+Nom del paquet
 Va deixar de funcionar
-Desactivar el paquet de còpia de seguretat des de l'Administrador de paquets
-funció de còpia de seguretat és de treball
-funció de còpia de seguretat ha deixat de funcionar
-interval de còpia de seguretat (minuts)
-Guardar __Backupscenes a l'començament de la manera de reproducció
-Crida Desar actius a el donar marxa enrere
-Eliminar arxius antics quan s'excedeix el nombre especificat d'arxius
-Còpies de seguretat de la seva escena ara
-còpia de seguretat de la neteja
-S'utilitza per al nom de presentació de l'paquet i el nom de la carpeta de sortida
-Sense nom de l'paquet va entrar
+Inhabiliteu el paquet de còpia de seguretat del gestor de paquets
+La funció de còpia de seguretat funciona
+La funció de còpia de seguretat ha deixat de funcionar
+Interval de còpia de seguretat (minuts)
+Desa __backupscenes al començament del mode de reproducció
+Truqueu a estalviar actius en fer còpies de seguretat
+Suprimeix els fitxers antics quan se superi el nombre especificat de fitxers
+Feu una còpia de seguretat de la vostra escena ara
+Netejar la còpia de seguretat
+S'utilitza per al nom de visualització del paquet i el nom de la carpeta de sortida
+No s'ha introduït cap nom del paquet
 Voleu sobreescriure el fitxer original amb aquesta còpia de seguretat?
+Deixarà de funcionar perquè el paquet de còpia de seguretat va desaparèixer durant l'operació

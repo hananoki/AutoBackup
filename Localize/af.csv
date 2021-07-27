@@ -1,15 +1,16 @@
-Friends pakket
-pakket Naam
+Rugsteunpakket
+Pakket naam
 Opgehou werk
-Skakel die Friends pakket van pakket Bestuurder
-Friends funksie werk
-Friends funksie het opgehou werk
-Friends interval (minute)
-Save __Backupscenes aan die begin van die spel af
-Call Save bates wanneer die back-up
-Verwyder ou lêers wanneer die gespesifiseerde aantal lêers oorskry
-Back-up van jou toneel nou
-Skoon te maak rugsteun
-Gebruik vir die vertoning naam van die pakket en die naam van die gids uitset
-Geen pakket naam ingevoer
+Deaktiveer die rugsteunpakket van pakketbestuurder
+Rugsteunfunksie werk
+Backup-funksie het opgehou werk
+Rugsteuninterval (minute)
+Stoor __BackupScenes aan die begin van die speelmodus
+Oproep stoor bates by die rugsteun
+Verwyder ou lêers wanneer die gespesifiseerde aantal lêers oorskry word
+Back-up jou toneel nou
+Maak rugsteun skoon
+Gebruik vir die vertoningsnaam van die pakket en die naam van die uitsetmap
+Geen pakketnaam ingevoer nie
 Wil jy die oorspronklike lêer oorskryf met hierdie rugsteun?
+Dit sal ophou werk omdat die rugsteunpakket tydens die operasie verdwyn het

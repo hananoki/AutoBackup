@@ -1,15 +1,16 @@
-pacchetto di backup
+Pacchetto di backup
 Nome del pacchetto
-Arrestato lavoro
-Disabilitare il pacchetto di backup da Package Manager
-funzione di backup è lavoro
-funzione di backup ha smesso di funzionare
-intervallo di backup (minuti)
-Salva __Backupscenes all'inizio del modo di riproduzione
-Salva beni di chiamata durante il backup
-Eliminare i vecchi file quando viene superato il numero specificato di file
-Eseguire il backup scena ora
-il backup su pulito
-Usato per il nome visualizzato del pacchetto e il nome della cartella di output
-Nessun nome del pacchetto è entrato
+Smesso di funzionare
+Disabilita il pacchetto di backup dal gestore dei pacchetti
+La funzione di backup funziona
+La funzione di backup ha smesso di funzionare
+Intervallo di backup (minuti)
+Salva __BackupScenes all'inizio della modalità di riproduzione
+Chiama salvare le risorse durante il backup
+Elimina vecchi file quando viene superato il numero specificato di file
+Backup della tua scena ora
+Pulire il backup
+Utilizzato per il nome visualizzato del pacchetto e il nome della cartella di uscita
+Nessun nome del pacchetto inserito
 Vuoi sovrascrivere il file originale con questo backup?
+Smetterà di funzionare perché il pacchetto di backup è scomparso durante il funzionamento

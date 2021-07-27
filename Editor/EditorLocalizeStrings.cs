@@ -27,6 +27,7 @@ namespace HananokiEditor.AutoBackup {
 		public static string _Usedforthedisplaynameofthepackageandthenameoftheoutputfolder => L.Tr( 12 );
 		public static string _Nopackagenameentered => L.Tr( 13 );
 		public static string _Doyouwanttooverwritetheoriginalfilewiththisbackup_ => L.Tr( 14 );
+		public static string _Itwillstopworkingbecausethebackuppackagedisappearedduringoperation => L.Tr( 15 );
 	}
 
 #if UNITY_EDITOR

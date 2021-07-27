@@ -1,15 +1,16 @@
-package sauvegarde
+Package de sauvegarde
 Nom du paquet
 Cessé de travailler
-Désactivez le package de sauvegarde de Package Manager
-Fonction de sauvegarde est travail
-Fonction de sauvegarde a cessé de fonctionner
-intervalle de sauvegarde (minutes)
-Enregistrer __Backupscenes au début du mode de lecture
-STOCKER actifs lors de la sauvegarde
+Désactiver le package de sauvegarde du gestionnaire de packages
+La fonction de sauvegarde fonctionne
+La fonction de sauvegarde a cessé de fonctionner
+Intervalle de sauvegarde (minutes)
+Enregistrer __Backuppenes au début du mode de lecture
+Appelez des actifs à la sauvegarde
 Supprimer les anciens fichiers lorsque le nombre spécifié de fichiers est dépassé
-Sauvegardez votre scène maintenant
-Propre sauvegarde up
+Sauvegarder votre scène maintenant
+Nettoyer la sauvegarde
 Utilisé pour le nom d'affichage de l'emballage et le nom du dossier de sortie
 Aucun nom de package entré
 Voulez-vous écraser le fichier d'origine avec cette sauvegarde?
+Il cessera de fonctionner car le package de sauvegarde a disparu pendant l'opération

@@ -1,15 +1,16 @@
-pachetul de rezervă
+Pachetul de backup
 Numele pachetului
 S-a oprit din munca
-Dezactivați pachetul de backup de la Package Manager
-Funcția de rezervă este de lucru
-Funcția de rezervă a încetat să funcționeze
+Dezactivați pachetul de backup de la pachetul Manager
+Funcția de backup funcționează
+Funcția de backup a încetat să funcționeze
 Interval de backup (minute)
-Salvați __Backupscenes la începutul modul de redare
-Salvați apeluri active atunci când suport în sus
-Ștergeți fișierele vechi atunci când se depășește numărul specificat de fișiere
-Copierea de rezervă scena acum
-copie de rezervă în sus Clean
-Folosit pentru numele de afișare al pachetului și numele folderului de ieșire
-Nici un nume de pachet introdus
+Salvați __Backupscenes la pornirea modului de redare
+Salvați activele la copierea de rezervă
+Ștergeți fișiere vechi atunci când numărul specificat de fișiere este depășit
+Spuneți acum scena dvs.
+Curățați backup
+Utilizat pentru numele afișat al pachetului și numele dosarului de ieșire
+Nu este introdus niciun nume de pachet
 Doriți să suprascrieți fișierul original cu această copie de rezervă?
+Acesta va înceta să lucreze deoarece pachetul de backup a dispărut în timpul funcționării

@@ -1,15 +1,16 @@
-gói sao lưu
+Gói dự phòng.
 Tên gói hàng
 Đã ngưng làm việc
-Vô hiệu hóa các gói sao lưu từ Package Manager
-Chức năng sao lưu là làm việc
-Chức năng sao lưu đã ngừng làm việc
-khoảng thời gian sao lưu (phút)
-Lưu __Backupscenes lúc bắt đầu chế độ chơi
-Gọi Lưu tài sản khi sao lưu
-Xóa tập tin cũ khi số lượng nhất định các file bị vượt quá
+Vô hiệu hóa gói sao lưu từ Trình quản lý gói
+Chức năng sao lưu đang hoạt động
+Chức năng sao lưu đã ngừng hoạt động
+Khoảng thời gian sao lưu (phút)
+Lưu __backupscenes khi bắt đầu chế độ chơi
+Gọi lưu tài sản khi sao lưu
+Xóa các tệp cũ khi vượt quá số lượng tệp được chỉ định
 Sao lưu cảnh của bạn bây giờ
-sao lưu lên sạch
-Sử dụng cho tên hiển thị của gói và tên của thư mục đầu ra
-Không tên gói vào
+Dọn dẹp sao lưu
+Được sử dụng cho tên hiển thị của gói và tên của thư mục đầu ra
+Không có tên gói đã nhập
 Bạn có muốn ghi đè lên tệp gốc với bản sao lưu này không?
+Nó sẽ ngừng hoạt động vì gói sao lưu biến mất trong quá trình hoạt động

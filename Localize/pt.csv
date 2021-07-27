@@ -1,15 +1,16 @@
-pacote de backup
+Pacote de backup
 Nome do pacote
 Parou de trabalhar
-Desativar o pacote de backup a partir do Gerenciador de Pacotes
-função de backup é de trabalho
-função de backup parou de funcionar
-intervalo de backup (minutos)
-Salvar __Backupscenes no início do modo de reprodução
-Salvar Ativos de chamadas ao fazer backup
-Excluir arquivos antigos quando o número especificado de arquivos for excedido
-Backup de sua cena agora
-de backup-se limpo
-Usado para exibir o nome do pacote e o nome da pasta de saída
-Sem nome do pacote entrou
+Desativar o pacote de backup do Gerenciador de Pacotes
+A função de backup está funcionando
+Função de backup parou de funcionar
+Intervalo de backup (minutos)
+Salvar __backupcenes no início do modo de reprodução
+Ligue para salvar ativos ao fazer o backup
+Excluir arquivos antigos quando o número especificado de arquivos é excedido
+Backup da sua cena agora
+Limpar o backup
+Usado para o nome de exibição do pacote e o nome da pasta de saída
+Nenhum nome do pacote digitado
 Você quer sobrescrever o arquivo original com este backup?
+Ele vai parar de funcionar porque o pacote de backup desapareceu durante a operação

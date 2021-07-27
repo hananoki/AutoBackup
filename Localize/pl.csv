@@ -1,15 +1,16 @@
-pakiet kopii zapasowej
-Nazwa pakietu
+Pakiet kopii zapasowej
+Nazwa pakietu.
 Zakończył pracę
-Wyłączenie pakietu kopii zapasowej z Package Manager
-Funkcja tworzenia kopii zapasowej działa
-Funkcja kopii zapasowej przestało działać
-Interwał kopii zapasowych (minuty)
-Zapisz __Backupscenes na początku trybie odtwarzania
-Połączeń Zapisz Aktywa podczas tworzenia kopii zapasowej
-Usuwanie starych plików po przekroczeniu określonej liczby plików
-Kopię zapasową teraz scenę
-Clean up backup
-Używany do wyświetlania nazwy pakietu i nazwę folderu wyjściowego
-No name pakiet wszedł
+Wyłącz pakiet kopii zapasowej z menedżera pakietów
+Funkcja kopii zapasowej działa
+Funkcja kopii zapasowej przestała działać
+Interwał kopii zapasowej (minuty)
+Zapisz ___BackumSCenes w trybie startu
+Zadzwoń do zapisz aktywów podczas tworzenia kopii zapasowych
+Usuń stare pliki po przekroczeniu określonej liczby plików
+Utwórz teraz swoją scenę
+Wyczyść kopię zapasową
+Używany do nazwy wyświetlającej pakietu i nazwę folderu wyjściowego
+Nie wprowadzono nazwy pakietu
 Czy chcesz nadpisać oryginalny plik za pomocą tego kopii zapasowej?
+Przestanie działać, ponieważ pakiet kopii zapasowej zniknął podczas pracy

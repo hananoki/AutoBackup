@@ -1,15 +1,16 @@
-paquete de copia de seguridad
+Paquete de copia de seguridad
 Nombre del paquete
 Dejó de funcionar
-Desactivar el paquete de copia de seguridad desde el Administrador de paquetes
-función de copia de seguridad es de trabajo
-función de copia de seguridad ha dejado de funcionar
-intervalo de copia de seguridad (minutos)
-Guardar __Backupscenes al comienzo del modo de reproducción
-Llamada Guardar activos al dar marcha atrás
+Desactivar el paquete de copia de seguridad de Package Manager
+La función de copia de seguridad está funcionando
+La función de copia de seguridad ha dejado de funcionar
+Intervalo de respaldo (minutos)
+Guardar __Backupscenes en el modo de inicio del modo de reproducción
+Llame a guardar los activos al hacer una copia de seguridad
 Eliminar archivos antiguos cuando se excede el número especificado de archivos
-Copias de seguridad de su escena ahora
-copia de seguridad de la limpieza
-Se utiliza para el nombre de presentación del paquete y el nombre de la carpeta de salida
-Sin nombre del paquete entró
+Haga una copia de seguridad de su escena ahora
+Limpiar la copia de seguridad
+Utilizado para el nombre de la pantalla del paquete y el nombre de la carpeta de salida
+Ningún nombre de paquete ingresado
 ¿Quieres sobrescribir el archivo original con esta copia de seguridad?
+Dejará de funcionar porque el paquete de copia de seguridad desapareció durante la operación

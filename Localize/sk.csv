@@ -1,15 +1,16 @@
-záložný balíček
-Meno balíček
+Záložný balík
+Názov balíka
 Prestal pracovať
-Zakázať záložný súbor zo Správcu balíčka
-Funkcia zálohovania je pracovný
-Záložné funkcie prestal pracovať
-Zálohovanie interval (minúty)
-Uložiť __Backupscenes na začiatku režimu prehrávania
-Volanie uložiť aktíva pri zálohovaní
-Zmazať staré súbory, keď je prekročený stanovený počet súborov
-Zálohovať scénu teraz
-Clean up backup
-Používa sa pre zobrazovaný názov balíčka a názov zložky výstupného
-No name balíček vstúpil
+Zakázať záložný balík z manažéra balíkov
+Funkcia zálohovania funguje
+Záložná funkcia prestala pracovať
+Interval zálohovania (minúty)
+Uložte __backupcenes na začiatku režimu prehrávania
+Zavolajte aktíva pri zálohovaní
+Odstráňte staré súbory, keď je prekročený zadaný počet súborov
+Teraz zálohovať svoju scénu
+Vyčistite zálohu
+Používa sa na zobrazovací názov balíka a názov výstupného priečinka
+Zadaný žiadny názov balíka
 Chcete prepísať pôvodný súbor s týmto zálohovaním?
+Prestane fungovať, pretože záložný balík zmizol počas prevádzky

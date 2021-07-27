@@ -1,15 +1,16 @@
-Backup csomag
+Mentési csomag
 Csomag név
 Elromlott
-Tiltsa le a biztonsági csomagot Package Manager
-Backup funkció működik
-Backup funkció leállt
-Backup intervallum (perc)
-Save __Backupscenes elején lejátszási mód
-Hívás mentése Eszközök tolatáskor
-Törölje a régi fájlokat, ha a megadott fájlok száma meghaladta
-Készítsen biztonsági másolatot a jelenetet most
-Tisztítsuk meg a mentés
-A kijelzőn használni a csomag nevét és a nevét a kimeneti mappát
-Nem csomag beírt név
+Tiltsa le a csomagkezelőt a csomagkezelőtől
+A mentési funkció működik
+A mentési funkció leállt
+Mentési intervallum (perc)
+Mentse el a __Backupsceneteket a lejátszási mód kezdetén
+Hívás mentése eszközök, amikor biztonsági mentés
+Régi fájlok törlése, ha a megadott számú fájl túllépése
+Vissza a jelenet most
+Tisztítsa meg a biztonsági mentést
+A csomag megjelenítési nevére és a kimeneti mappa nevére
+Nincs megadva csomagnév
 Szeretné felülírni az eredeti fájlt ezzel a biztonsági mentéssel?
+Abbahagyja a munkát, mert a mentési csomag eltűnt a működés során

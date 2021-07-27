@@ -1,15 +1,16 @@
 Backup pakete
-Pakotnes nosaukums
-pārtraucis darbu
-Atslēgt rezerves paketi no pakotņu pārvaldnieka
-Backup funkcija ir darba
+Iepakojuma nosaukums
+Pārtrauca darbu
+Atspējojiet paketes pārvaldnieka rezerves paketi
+Backup funkcija darbojas
 Backup funkcija ir pārtraucis darbu
 Backup intervāls (minūtes)
-Saglabāt __Backupscenes sākumā play režīmā
-Zvanu Saglabāt Aktīvi kad dublēšana
-Dzēst vecos failus, kad ir pārsniegts noteiktais failu skaits
-Dublēt savu skatuves tagad
-Clean up rezerves
-Izmanto displeja nosaukumu paketi un nosaukumu izvades mapes
-Pakotnes nosaukums nav ievadīts
+Saglabāt __backupscenes atskaņošanas režīma sākumā
+Zvanu ietaupīt aktīvus, atbalstot
+Dzēsiet vecos failus, kad ir pārsniegts norādītais failu skaits
+Atpakaļ uz augšu savu ainu tagad
+Notīriet dublējumu
+Izmanto iepakojuma nosaukumam un izejas mapes nosaukumam
+Nav ievadīts neviens iepakojuma nosaukums
 Vai vēlaties pārrakstīt sākotnējo failu ar šo dublējumu?
+Tas pārtrauks darboties, jo rezerves pakete pazuda darbības laikā

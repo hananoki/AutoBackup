@@ -22,8 +22,8 @@ namespace HananokiEditor.AutoBackup {
 
 			RemoveUI();
 
-			EditorApplication.update -= OnUpdate;
-			EditorApplication.update += OnUpdate;
+			EditorApplication.update -= HananokiEditor_AutoBackup_Confirm_Update;
+			EditorApplication.update += HananokiEditor_AutoBackup_Confirm_Update;
 		}
 
 
@@ -37,11 +37,11 @@ namespace HananokiEditor.AutoBackup {
 
 
 		/////////////////////////////////////////
-		void OnUpdate() {
+		void HananokiEditor_AutoBackup_Confirm_Update() {
 			if( !DeleyAttach() ) return;
 
 			EditorWindowUtils.RepaintHierarchyWindow();
-			EditorApplication.update -= OnUpdate;
+			EditorApplication.update -= HananokiEditor_AutoBackup_Confirm_Update;
 		}
 
 

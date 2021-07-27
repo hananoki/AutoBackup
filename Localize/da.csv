@@ -1,15 +1,16 @@
-Backup-pakke
-pakke navn
+Backup pakke
+Pakke navn
 Holdt op med at virke
-Deaktiver backup pakke fra Package Manager
-Backup funktion er arbejdsmiljø
-Backup funktion virker ikke længere
-Backup-interval (minutter)
-Gem __Backupscenes ved start af afspilning
-Call Gem Aktiver når du sikkerhedskopierer
-Slet gamle filer, når det angivne antal filer er overskredet
+Deaktiver backup-pakken fra pakkehåndtering
+Backup-funktionen virker
+Backup-funktionen er stoppet med at arbejde
+Backup Interval (minutter)
+Gem __backupscenes ved start af afspilningstilstand
+Ring gemme aktiver, når du sikkerhedskopieres
+Slet gamle filer, når det angivne antal filer overskrides
 Sikkerhedskopier din scene nu
-Clean up backup
-Bruges til det viste navn på pakken, og navnet på den outputmappen
-Ingen pakkenavn indtastet
+Ryd op sikkerhedskopiering
+Bruges til visningsnavnet på pakken og navnet på outputmappen
+Ingen pakke navn indtastet
 Vil du overskrive den oprindelige fil med denne backup?
+Det vil stoppe med at arbejde, fordi backup-pakken forsvandt under drift

@@ -1,7 +1,7 @@
 {
   "name": "com.hananoki.auto-backup",
   "displayName": "AutoBackup",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "unity": "2019.1",
   "description": "Automatically save scenes on a regular basis",
   "keywords": [

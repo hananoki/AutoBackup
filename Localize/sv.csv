@@ -1,15 +1,16 @@
-backup paket
+Backuppaket
 Paketnamn
 Slutade fungera
-Inaktivera backup paket från Package Manager
-Backup-funktion fungerar
-Backup-funktion har slutat fungera
-Backup-intervallet (minuter)
-Spara __Backupscenes vid start av spelläge
-Samtals Spara tillgångar när säkerhetskopiera
-Ta bort gamla filer när det angivna antalet filer har överskridits
-Säkerhetskopiera scenen nu
-Clean up backup
-Används för visning namnet på paketet och namnet på den utgående mappen
-Ingen paketnamnet in
+Inaktivera backup-paketet från Package Manager
+Backup-funktionen fungerar
+Backup-funktionen har slutat fungera
+Backup Interval (minuter)
+Spara __Backupscenes i början av Play-läget
+Samtal Spara tillgångar när du säkerhetskopierar
+Ta bort gamla filer när det angivna antalet filer överskrids
+Säkerhetskopiera din scen nu
+Rengör säkerhetskopiering
+Används för förpackningsnamnet för paketet och namnet på utmatningsmappen
+Inget paketnamn som anges
 Vill du skriva över den ursprungliga filen med den här säkerhetskopian?
+Det kommer att sluta fungera eftersom backup-paketet försvann under drift

@@ -1,15 +1,16 @@
-Yedekleme paket
+Yedekleme paketi
 Paket ismi
 Çalışmayı durdurdu
-Paket Yöneticisi yedekleme paketini devre dışı bırakın
-Yedekleme fonksiyonu çalışma olduğunu
-Yedekleme fonksiyonu çalışma durdu
+Yedekleme paketini paket yöneticisinden devre dışı bırakın
+Yedekleme işlevi çalışıyor
+Yedekleme işlevi çalışmayı durdurdu
 Yedekleme aralığı (dakika)
-Kaydet __Backupscenes oynatma modunda başında
-Çağrı kaydet Varlıklar yedeklenmesi
-Dosyaların belirtilen sayısı aşıldığında eski dosyaları sil
-Şimdi sahne yedekleyin
-Clean up yedekleme
-Paketin görüntü adı ve çıkış klasörün adı için kullanılır
-Hiçbir paket adı girilir
+Oyun modunda __backupscenes kaydet
+Yedekleme sırasında varlıkları kaydetme çağrısı
+Belirtilen dosya sayısı aşıldığında eski dosyaları silin
+Şimdi sahneyi yedekle
+Yedekleme temizleyin
+Paketin ekran adı ve çıktı klasörünün adı için kullanılır
+Paket adı girilmedi
 Bu yedekleme ile orijinal dosyanın üzerine yazmak ister misiniz?
+Yedekleme paketi operasyon sırasında kaybolduğu için çalışmayı bırakacak

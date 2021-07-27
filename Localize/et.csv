@@ -1,15 +1,16 @@
-backup paketi
-paketi nimi
+Varukoopiapakett
+Pakendi nimi
 Lõpetas töötamise
-Keelake backup pakett Package Manager
-Backup funktsiooni töötab
-Backup funktsiooni on lakanud töötamast
-Backup intervalli (minutid)
-Salvesta __Backupscenes alguses taasesitamisrežiim
-Kõne Salvesta Varad tagurdades
-Kustuta vanad failid, kui määratud failide arv on ületatud
-Varundada stseeni nüüd
-Koristage backup
-Kasutatakse ekraanil paketi nimi ja nimi väljund kausta
-Paketinimi pole sisestatud
+Keela varukoopia paketi paketi haldurilt
+Backup funktsioon töötab
+Backup funktsioon on lõpetanud töö
+Backup intervall (minutit)
+Salvesta __Backepesces mängurežiimi alguses
+Kõne salvestada vara varundamine
+Kustuta vanad failid, kui määratud arv faile ületatakse
+Varundage oma stseeni nüüd
+Puhastage varukoopia
+Kasutatakse pakendi kuvamise nime ja väljundkausta nime nime
+Pakettide nime pole sisestatud
 Kas soovite selle varundusega esialgse faili üle kirjutada?
+See lõpetab töötamise, sest backup pakett kadunud töö ajal
